@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(
             name: "AmpCore",
             url: "https://mdtp-a.akamaihd.net/amp-ios-sdk/frameworks/\(version)/AmpCore.zip",
-            checksum: "79d77a8d8f8d1d1d18387ad9eae9a6cad2f5ddebaf4301b2084b8d2ff7a83b93"
+            checksum: "9ac9891e88edc1d0c7d83a4b09d60a0516647a5564034eb75235162831b11c63"
         )
     ]
 )
