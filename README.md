@@ -52,6 +52,15 @@ The SDK is able to play live and on-demand streams using the Apple HLS streaming
 ```ruby
 pod 'AmpCore'
 ```
+
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate Alamofire into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+binary "https://mdtp-a.akamaihd.net/amp-ios-sdk/frameworks/AmpCore.json"
+```
+
 ### Swift Package Manager
 The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development.
 
